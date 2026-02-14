@@ -1,94 +1,118 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: linear-gradient(180deg,#0b0f1a,#070910);
-  color: white;
+body{
+  margin:0;
+  font-family:Arial;
+  background:#0b0f1a;
+  color:white;
 }
 
-/* TOPO */
-.topo {
-  text-align: center;
-  padding: 60px 20px;
-  background: radial-gradient(circle,#1a2338,#0b0f1a);
+/* NAVBAR */
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 30px;
+  background:#111827;
 }
 
-.topo h1 {
-  margin: 0;
-  font-size: 40px;
+.menu a{
+  margin-left:20px;
+  text-decoration:none;
+  color:white;
 }
 
-.topo p {
-  opacity: 0.7;
+/* HERO */
+
+.hero{
+  text-align:center;
+  padding:120px 20px;
+  background:linear-gradient(180deg,#1a2338,#0b0f1a);
 }
 
-/* CONTAINER */
-.container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
+.hero h1{
+  font-size:50px;
 }
 
-/* GRID */
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
-  justify-content: center;
-  margin-bottom: 40px;
+.botoes button{
+  padding:12px 25px;
+  margin:10px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:16px;
 }
 
-/* CARD */
-.card {
-  background: #111827;
-  padding: 25px;
-  border-radius: 15px;
-  width: 180px;
-  text-align: center;
-  transition: 0.3s;
-  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+.discord{
+  background:#5865F2;
+  color:white;
 }
 
-.card:hover {
-  transform: translateY(-8px) scale(1.05);
+/* INFO */
+
+.info{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:20px;
+  padding:50px;
 }
 
-.card img {
-  width: 90px;
-  border-radius: 10px;
-  margin-bottom: 10px;
+.box{
+  background:#111827;
+  padding:25px;
+  border-radius:12px;
+  width:250px;
 }
 
-.card h3 {
-  margin: 5px 0;
+/* PAGINA */
+
+.pagina{
+  padding:60px 20px;
+  text-align:center;
 }
 
-/* TAG */
-.tag {
-  display: inline-block;
-  padding: 5px 12px;
-  border-radius: 8px;
-  font-size: 12px;
-  font-weight: bold;
+.grid{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:25px;
+  margin-top:30px;
 }
 
-/* CARGOS CORES */
-.dono { color: #ff4d4d; }
-.admin { color: #ff9f43; }
-.modplus { color: #4cd137; }
-.mod { color: #00a8ff; }
-.trial { color: #9c88ff; }
-.helper { color: #fbc531; }
+.card{
+  background:#111827;
+  padding:20px;
+  border-radius:12px;
+  width:180px;
+}
 
-.tag.dono { background:#ff4d4d22; }
-.tag.admin { background:#ff9f4322; }
-.tag.modplus { background:#4cd13722; }
-.tag.mod { background:#00a8ff22; }
-.tag.trial { background:#9c88ff22; }
-.tag.helper { background:#fbc53122; }
+.card img{
+  width:80px;
+}
 
-/* TITULO CARGO */
-.cargo {
-  text-align: center;
-  margin: 30px 0 15px;
-  font-size: 26px;
+.card button{
+  padding:8px 15px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+/* REGRAS */
+
+.regras{
+  list-style:none;
+  padding:0;
+}
+
+.regras li{
+  margin:10px 0;
+  background:#111827;
+  padding:15px;
+  border-radius:8px;
+}
+
+footer{
+  text-align:center;
+  padding:20px;
+  background:#111827;
 }
