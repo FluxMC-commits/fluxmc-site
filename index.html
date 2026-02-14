@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>FluxMC</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>FluxMC</h1>
+  <nav>
+    <a href="#">Início</a>
+    <a href="loja.html">Loja</a>
+    <a href="equipe.html">Equipe</a>
+    <a href="forum.html">Fórum</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Servidor de Minecraft PvP</h2>
+  <p>IP: jogar.fluxmc.com</p>
+  <button onclick="copyIP()">Copiar IP</button>
+</section>
+
+<script>
+function copyIP() {
+  navigator.clipboard.writeText("jogar.fluxmc.com");
+  alert("IP copiado!");
+}
+</script>
+
+</body>
+</html>
+
