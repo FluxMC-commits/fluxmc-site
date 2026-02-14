@@ -8,29 +8,58 @@
 
 <body>
 
-<header>
-  <h1>FluxMC</h1>
-  <nav>
-    <a href="#">Início</a>
-    <a href="loja.html">Loja</a>
+<nav class="navbar">
+  <h2>FluxMC</h2>
+
+  <div class="menu">
+    <a href="index.html">Inicio</a>
     <a href="equipe.html">Equipe</a>
-    <a href="forum.html">Fórum</a>
-  </nav>
+    <a href="loja.html">Loja</a>
+    <a href="regras.html">Regras</a>
+  </div>
+</nav>
+
+<header class="hero">
+
+  <h1>FluxMC Network</h1>
+  <p>O melhor servidor de BedWars do Brasil</p>
+
+  <div class="botoes">
+    <button onclick="copiarIP()">Copiar IP</button>
+    <a href="#"><button class="discord">Discord</button></a>
+  </div>
+
 </header>
 
-<section class="hero">
-  <h2>Servidor de Minecraft PvP</h2>
-  <p>IP: jogar.fluxmc.com</p>
-  <button onclick="copyIP()">Copiar IP</button>
+<section class="info">
+
+  <div class="box">
+    <h3>⚔️ Modos</h3>
+    <p>BedWars competitivo com sistemas exclusivos.</p>
+  </div>
+
+  <div class="box">
+    <h3>👥 Comunidade</h3>
+    <p>Junte-se a centenas de jogadores diariamente.</p>
+  </div>
+
+  <div class="box">
+    <h3>🛒 Loja</h3>
+    <p>Ranks, vantagens e cosméticos especiais.</p>
+  </div>
+
 </section>
 
+<footer>
+  © 2026 FluxMC • Todos direitos reservados
+</footer>
+
 <script>
-function copyIP() {
-  navigator.clipboard.writeText("jogar.fluxmc.com");
+function copiarIP(){
+  navigator.clipboard.writeText("fluxmc.blackhosting.com.br");
   alert("IP copiado!");
 }
 </script>
 
 </body>
 </html>
-
