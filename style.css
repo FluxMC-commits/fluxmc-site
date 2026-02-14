@@ -32,3 +32,21 @@ button {
   cursor: pointer;
   border-radius: 6px;
 }
+.staff {
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+  justify-content: center;
+}
+
+.card {
+  background: #1a1a22;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card img {
+  width: 80px;
+}
+
